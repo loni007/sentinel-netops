@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sentinel NetOps</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Sentinel NetOps</h1>
+      <p>Defensive asset inventory and safe visibility checks.</p>
+    </header>
+
+    <section class="card">
+      <h2>Add Asset</h2>
+      <input id="token" type="password" placeholder="API Token" value="change-me-in-production" />
+      <div class="grid">
+        <input id="name" placeholder="Asset name" />
+        <input id="host" placeholder="Host or IP" />
+        <input id="environment" placeholder="Environment" value="lab" />
+        <input id="owner" placeholder="Owner" value="security-team" />
+      </div>
+      <button onclick="createAsset()">Add asset</button>
+    </section>
+
+    <section class="card">
+      <h2>Assets</h2>
+      <div id="assets"></div>
+    </section>
+
+    <section class="card">
+      <h2>Recent Findings</h2>
+      <div id="results"></div>
+    </section>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
