@@ -24,6 +24,8 @@ This project helped me understand sockets, async scanning, and how port scanning
 ```bash
 pip install -r requirements.txt
 python main.py
+
+
 ## Screenshots
 
 ![Dashboard](ui-dashboard.png)
