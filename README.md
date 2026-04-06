@@ -26,4 +26,4 @@ pip install -r requirements.txt
 python main.py
 ## Screenshots
 
-![Dashboard](Screenshot 2026-04-06 200456.png)
+![Dashboard](ui-dashboard.png)
